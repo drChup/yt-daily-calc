@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – YT Daily View Calculator</title>
+  <style>
+    :root { --text: #1f1f1f; --muted: #5f6368; --bg: #ffffff; --line: #e3e3e3; --accent: #0b57d0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #e8eaed; --muted: #9aa0a6; --bg: #1f1f1f; --line: #3c4043; --accent: #8ab4f8; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 -apple-system, "Segoe UI", Roboto, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+    h1 { font-size: 26px; margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    nav a { color: var(--accent); margin-right: 16px; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+    li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="#en">English</a><a href="#ko">한국어</a></nav>
+
+  <section id="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">YT Daily View Calculator · Effective date: October 22, 2026</p>
+
+    <p>YT Daily View Calculator (the "Extension") is a Chrome extension that calculates the view count for a 24-hour window on the YouTube Studio analytics page. This policy explains what information the Extension handles.</p>
+
+    <h2>Information we collect</h2>
+    <p>We do not collect any personal information (such as your name, email address, password, or watch history) or usage data. The Extension has no servers, no analytics, no tracking, and no ads.</p>
+
+    <h2>Information stored on your device</h2>
+    <ul>
+      <li><strong>Channel ID</strong>: If you type a channel ID or click "Remember channel", the YouTube channel ID (e.g. <code>UC…</code>) is saved in Chrome's local extension storage (<code>chrome.storage.local</code>) on your device, so the popup can open your channel's analytics page. It never leaves your device, and you can delete it by clearing the input field or removing the Extension.</li>
+    </ul>
+
+    <h2>How page data is used</h2>
+    <ul>
+      <li>On <code>studio.youtube.com</code>, the Extension reads the hourly view chart already shown on the "Latest activity" card to calculate the 24-hour view count. This happens entirely in your browser and the data is not stored or sent anywhere.</li>
+      <li>When you click "Remember channel", the Extension reads the current tab's URL and page to find a channel ID. This only happens when you click the button.</li>
+      <li>The calculated number is written to your clipboard only when you click the "Copy" button or the number itself.</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>storage</strong> – to save your channel ID locally.</li>
+      <li><strong>activeTab</strong>, <strong>scripting</strong> – to detect the channel ID on the current page when you click "Remember channel".</li>
+      <li><strong>Access to studio.youtube.com</strong> – to show the calculator on the YouTube Studio analytics page.</li>
+    </ul>
+
+    <h2>Third parties</h2>
+    <p>We never sell, rent, or share your data with third parties. The Extension is not affiliated with YouTube or Google; your use of YouTube Studio is governed by Google's own privacy policy.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:sudo_rm_rf@icloud.com">sudo_rm_rf@icloud.com</a></p>
+  </section>
+
+  <hr>
+
+  <section id="ko" lang="ko">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">YT 스튜디오 일일 조회수 계산기 · 시행일: 2026년 10월 22일</p>
+
+    <p>YT 스튜디오 일일 조회수 계산기(이하 "확장 프로그램")는 유튜브 스튜디오 분석 페이지에서 24시간 구간의 조회수를 계산해 주는 크롬 확장 프로그램입니다. 본 방침은 확장 프로그램이 다루는 정보에 대해 설명합니다.</p>
+
+    <h2>수집하는 정보</h2>
+    <p>확장 프로그램은 어떠한 개인정보(이름, 이메일, 비밀번호, 시청 기록 등)나 이용 데이터도 수집하지 않습니다. 외부 서버, 통계 수집, 추적, 광고가 없습니다.</p>
+
+    <h2>기기에 저장되는 정보</h2>
+    <ul>
+      <li><strong>채널 코드</strong>: 사용자가 채널 코드를 입력하거나 '채널 기억하기'를 누르면, 유튜브 채널 코드(예: <code>UC…</code>)가 사용자 기기의 크롬 확장 프로그램 로컬 저장소(<code>chrome.storage.local</code>)에 저장됩니다. 팝업에서 내 채널 분석 페이지를 열기 위한 용도이며 기기 밖으로 전송되지 않습니다. 입력칸을 비우거나 확장 프로그램을 삭제하면 지워집니다.</li>
+    </ul>
+
+    <h2>페이지 데이터 이용 방식</h2>
+    <ul>
+      <li><code>studio.youtube.com</code>에서 '최근 활동' 카드에 이미 표시된 시간대별 조회수 차트를 읽어 24시간 조회수를 계산합니다. 모든 처리는 브라우저 안에서만 이루어지며 데이터를 저장하거나 전송하지 않습니다.</li>
+      <li>'채널 기억하기'를 누를 때에만 현재 탭의 주소와 페이지에서 채널 코드를 찾습니다.</li>
+      <li>계산된 숫자는 [복사] 버튼이나 결과 숫자를 누를 때에만 클립보드에 복사됩니다.</li>
+    </ul>
+
+    <h2>권한</h2>
+    <ul>
+      <li><strong>storage</strong> – 채널 코드를 기기에 저장하기 위해 사용합니다.</li>
+      <li><strong>activeTab</strong>, <strong>scripting</strong> – '채널 기억하기'를 눌렀을 때 현재 페이지에서 채널 코드를 찾기 위해 사용합니다.</li>
+      <li><strong>studio.youtube.com 접근</strong> – 유튜브 스튜디오 분석 페이지에 계산기를 표시하기 위해 사용합니다.</li>
+    </ul>
+
+    <h2>제3자 제공</h2>
+    <p>개발자는 어떠한 경우에도 사용자의 데이터를 제3자에게 판매, 대여 또는 공유하지 않습니다. 확장 프로그램은 YouTube 또는 Google과 관련이 없으며, 유튜브 스튜디오 이용에는 Google의 개인정보처리방침이 적용됩니다.</p>
+
+    <h2>변경</h2>
+    <p>방침이 변경되면 새 시행일과 함께 이 페이지에 게시합니다.</p>
+
+    <h2>문의</h2>
+    <p>문의: <a href="mailto:sudo_rm_rf@icloud.com">sudo_rm_rf@icloud.com</a></p>
+  </section>
+</main>
+</body>
+</html>
